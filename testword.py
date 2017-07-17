@@ -79,8 +79,8 @@ def WordMap():
 		                 np.arange(y_min, y_max, h))
 	  
 	    
-	    plt.xlim(xx.min(), xx.max())
-	    plt.ylim(yy.min(), yy.max())
+	    plt.xlim(-0.01, 0.01)
+	    plt.ylim(-0.01, 0.01)
 	    plt.title('words map')
 	    
 	    
